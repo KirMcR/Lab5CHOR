@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Lab5CHOR</string>
+    <string name="put_login">введите login...</string>
+    <string name="put_password">введите пароль...</string>
+    <string name="autorization">Авторизация</string>
+
+<!--Ключи для проверки кнопок-->
+    <string name="enter_key">enterKey</string>
+    <string name="reg_key">regKey</string>
+<!-- -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-->
+    <string name="bod">111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</string>
+    <string name="enter">Вход</string>
+    <string name="registration">РЕГИСТРАЦИЯ</string>
+    <string name="successfully">SUCCESSFULLY!!!</string>
+    <string name="registration_">Регистрация</string>
+    <string name="put_password_escho">подтвердите пароль...</string>
+    <string name="e_mail">введите e-mail...</string>
+
+
+    <string name="empty"> </string>
+    <string name="wrong_char"> ОШИБКА!!!
+        пароль и login могут состоять только из букв английского алфавита(A-z) и(или) цифр (0-9)</string>
+    <string name="log_emp">Поле login не заполнено</string>
+    <string name="pas_emp">Поле пароль не заполнено</string>
+    <string name="field_emp">Поля не заполнены</string>
+    <string name="wrong_user">Пользователя с таким login не существует</string>
+    <string name="wrong_passw">Неверный пароль</string>
+    <string name="server_error">Извините, произошла ошибка сервера, попробуйте еще раз</string>
+
+
+    <string name="not_same_passw">Пароли не совпадают</string>
+    <string name="not_repeat_passw">Подтвердите пароль</string>
+    <string name="short_passw">Пароль должен содержать от 8 до 32 символов</string>
+    <string name="simpl_passw">Слишком простой пароль! (Пароль должен содержать минимум 1 букву английского алфавита(A–z) и одну цифру(0–9))</string>
+    <string name="login_exist">Пользователь с таким login уже существует</string>
+    <string name="description">Пароль должен состоять из букв(A-z) и цифр(0-9) и иметь длину 8-32 символа</string>
+
+    <string name="wait">Загрузка...</string>
+
+    <string name="check">Проверка...</string>
+
+
+</resources>

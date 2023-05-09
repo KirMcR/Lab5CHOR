@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/autorization"
+        android:textColor="@color/black"
+        android:textSize="28dp"/>
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="8dp"
+        android:textAlignment="center"
+        tools:text="@string/bod"
+        android:textColor="@color/red"/>
+
+    <EditText
+        android:id="@+id/login"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:background="@drawable/border_"
+        android:layout_marginTop="8dp"
+        android:padding="7dp"
+        android:hint="@string/put_login"
+        android:textColor="@color/black"
+        />
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:background="@drawable/border_"
+        android:layout_marginTop="8dp"
+        android:padding="7dp"
+        tools:text ="111"
+        android:hint="@string/put_password"
+        android:textColor="@color/black"
+        android:inputType="textWebPassword"
+        />
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/enter"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_btn"
+            android:text="@string/enter" />
+
+        <Button
+            android:id="@+id/reg"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/border_btn"
+            android:text="@string/registration"
+            android:theme="@style/Button.White" />
+
+    </LinearLayout>
+
+</LinearLayout>
